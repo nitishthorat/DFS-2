@@ -1,3 +1,7 @@
+'''
+    Time Complexity: O(mn)
+    Space Complexity: O(min(m,n))
+'''
 class Solution:
     def numIslands(self, grid: List[List[str]]) -> int:
         m = len(grid)
